@@ -1,0 +1,20 @@
+Reactive MD-force field c/h/o combustion force field: Chenoweth, K.; van Duin, A.C.T.; Goddard, W.A. J. Phys. Chem. A 2008, 112, 1040-1053.
+ 39       ! Number of general parameters                                        
+   50.0000 !p(boc1)
+    9.5469 !p(boc2)
+   26.5405 !p(coa2)
+    1.5105 !p(trip4)
+    6.6630 !p(trip3)
+   70.0000 !kc2
+    1.0588 !p(ovun6)
+    4.6000 !p(trip2)
+   12.1176 !p(ovun7)
+   13.3056 !p(ovun8)
+  -70.1292 !p(trip1)
+    0.0000 !Lower Taper-radius (swa)
+   10.0001 !Upper Taper-radius (swb)                                                 
+    0.0000 !not used
+   33.8667 !p(val7)
+    6.0891 !p(lp1)
+    1.0563 !p(val9)
+    2.0384 !p(val10)

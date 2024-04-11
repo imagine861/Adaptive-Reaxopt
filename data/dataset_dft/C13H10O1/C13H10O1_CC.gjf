@@ -1,0 +1,101 @@
+%nprocshared=32
+%mem=600MW
+%chk=C:\Users\Administrator\Desktop\dataset_dft\C12H8O1\C12H8O1.chk
+# scan b3lyp/6-31++g(d,p) nosymm
+
+Title Card Required
+
+0 1
+ C(PDBName=C,ResName=MOL,ResNum=1)                 
+ C(PDBName=C,ResName=MOL,ResNum=1)                     1            B1
+ C(PDBName=C,ResName=MOL,ResNum=1)                     2            B2    1            A1
+ C(PDBName=C,ResName=MOL,ResNum=1)                     3            B3    2            A2    1            D1    0
+ C(PDBName=C,ResName=MOL,ResNum=1)                     4            B4    3            A3    2            D2    0
+ C(PDBName=C,ResName=MOL,ResNum=1)                     1            B5    2            A4    3            D3    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                     1            B6    6            A5    5            D4    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                     2            B7    1            A6    6            D5    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                     3            B8    2            A7    1            D6    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                     6            B9    1            A8    2            D7    0
+ C(PDBName=C,ResName=MOL,ResNum=1)                     4           B10    3            A9    2            D8    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                    11           B11    4           A10    3            D9    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                    11           B12    4           A11    3           D10    0
+ C(PDBName=C,ResName=MOL,ResNum=1)                    11           B13    4           A12    3           D11    0
+ C(PDBName=C,ResName=MOL,ResNum=1)                    14           B14   11           A13    4           D12    0
+ C(PDBName=C,ResName=MOL,ResNum=1)                    15           B15   14           A14   11           D13    0
+ C(PDBName=C,ResName=MOL,ResNum=1)                    16           B16   15           A15   14           D14    0
+ C(PDBName=C,ResName=MOL,ResNum=1)                    17           B17   16           A16   15           D15    0
+ C(PDBName=C,ResName=MOL,ResNum=1)                    18           B18   17           A17   16           D16    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                    15           B19   14           A18   11           D17    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                    16           B20   15           A19   14           D18    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                    17           B21   16           A20   15           D19    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                    18           B22   17           A21   16           D20    0
+ O(PDBName=O,ResName=MOL,ResNum=1)                     5           B23    4           A22    3           D21    0
+
+   B1             1.39972390
+   B2             1.39482312
+   B3             1.40135910
+   B4             1.39919779
+   B5             1.39280797
+   B6             1.08587562
+   B7             1.08556515
+   B8             1.08771251
+   B9             1.08513367
+   B10            1.51266511
+   B11            1.09752160
+   B12            1.10089306
+   B13            1.00000000 20 0.100000
+   B14            1.40135866
+   B15            1.39482294
+   B16            1.39972408
+   B17            1.39280783
+   B18            1.39819779
+   B19            1.08771249
+   B20            1.08556513
+   B21            1.08587560
+   B22            1.08513367
+   B23            1.37909008
+   A1           119.52781845
+   A2           121.55709213
+   A3           117.74802768
+   A4           120.02057514
+   A5           119.64896541
+   A6           120.38231777
+   A7           119.77035128
+   A8           121.62600857
+   A9           121.74197682
+   A10          109.94999470
+   A11          109.38255963
+   A12          112.16387941
+   A13          121.74203506
+   A14          121.55707246
+   A15          119.52782000
+   A16          120.02057775
+   A17          119.57728084
+   A18          118.67164678
+   A19          120.08985678
+   A20          120.32954394
+   A21          121.62599470
+   A22          122.55232084
+   D1             0.14527143
+   D2            -0.68499733
+   D3             0.37402258
+   D4          -179.99291488
+   D5          -179.63400710
+   D6           179.79138251
+   D7           179.44107968
+   D8           177.80900624
+   D9            45.37781746
+   D10          -70.40478136
+   D11          168.04846937
+   D12         -168.04420133
+   D13         -177.81138673
+   D14           -0.15417152
+   D15           -0.36976752
+   D16            0.33522198
+   D17            1.84070955
+   D18          179.85793801
+   D19          179.98899364
+   D20         -179.42853229
+   D21         -179.52758219
+
+

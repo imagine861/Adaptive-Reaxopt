@@ -1,0 +1,1639 @@
+ Entering Link 1 = I:\G16W\l1.exe PID=     10924.
+  
+ Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2009,2016,
+            Gaussian, Inc.  All Rights Reserved.
+  
+ This is part of the Gaussian(R) 16 program.  It is based on
+ the Gaussian(R) 09 system (copyright 2009, Gaussian, Inc.),
+ the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
+ the Gaussian(R) 98 system (copyright 1998, Gaussian, Inc.),
+ the Gaussian(R) 94 system (copyright 1995, Gaussian, Inc.),
+ the Gaussian 92(TM) system (copyright 1992, Gaussian, Inc.),
+ the Gaussian 90(TM) system (copyright 1990, Gaussian, Inc.),
+ the Gaussian 88(TM) system (copyright 1988, Gaussian, Inc.),
+ the Gaussian 86(TM) system (copyright 1986, Carnegie Mellon
+ University), and the Gaussian 82(TM) system (copyright 1983,
+ Carnegie Mellon University). Gaussian is a federally registered
+ trademark of Gaussian, Inc.
+  
+ This software contains proprietary and confidential information,
+ including trade secrets, belonging to Gaussian, Inc.
+  
+ This software is provided under written license and may be
+ used, copied, transmitted, or stored only in accord with that
+ written license.
+  
+ The following legend is applicable only to US Government
+ contracts under FAR:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, reproduction and disclosure by the US Government is
+ subject to restrictions as set forth in subparagraphs (a)
+ and (c) of the Commercial Computer Software - Restricted
+ Rights clause in FAR 52.227-19.
+  
+ Gaussian, Inc.
+ 340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
+  
+  
+ ---------------------------------------------------------------
+ Warning -- This program may not be used in any manner that
+ competes with the business of Gaussian, Inc. or will provide
+ assistance to any competitor of Gaussian, Inc.  The licensee
+ of this program is prohibited from giving any competitor of
+ Gaussian, Inc. access to this program.  By using this program,
+ the user acknowledges that Gaussian, Inc. is engaged in the
+ business of creating and licensing software in the field of
+ computational chemistry and represents and warrants to the
+ licensee that it is not a competitor of Gaussian, Inc. and that
+ it will not use this program in any manner prohibited above.
+ ---------------------------------------------------------------
+  
+
+ Cite this work as:
+ Gaussian 16, Revision A.03,
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, 
+ G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich, 
+ J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian, 
+ J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young, 
+ F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone, 
+ T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega, 
+ G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda, 
+ J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, 
+ T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta, 
+ F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin, 
+ V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand, 
+ K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar, 
+ J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi, 
+ J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas, 
+ J. B. Foresman, and D. J. Fox, Gaussian, Inc., Wallingford CT, 2016.
+ 
+ ******************************************
+ Gaussian 16:  EM64W-G16RevA.03 17-Dec-2016
+                14-Mar-2023 
+ ******************************************
+ %chk=C:\Users\Administrator\Desktop\dataset_dft\ch4.chk
+ --------------------------------
+ # scan b3lyp/6-31++g(d,p) nosymm
+ --------------------------------
+ 1/38=1,60=1,172=1/1,8;
+ 2/12=2,15=1,17=6,18=5,29=3,40=1/2;
+ 3/5=1,6=6,7=1111,11=2,25=1,30=1,74=-5/1,2,3;
+ 4//1;
+ 5/5=2,38=5/2;
+ 6/7=2,8=2,9=2,10=2,18=1,28=1/1;
+ 1/60=1/8(1);
+ 99/9=1/99;
+ 2/15=1,29=3/2;
+ 3/5=1,6=6,7=1111,11=2,25=1,30=1,74=-5/1,2,3;
+ 4/5=5,16=3,69=1/1;
+ 5/5=2,38=5/2;
+ 1/60=1/8(-4);
+ 99/9=1/99;
+ -------------------
+ Title Card Required
+ -------------------
+ Symbolic Z-matrix:
+ Charge =  0 Multiplicity = 1
+ C(PDBName=C,ResName=MOL,ResNum=1)
+ H(PDBName=H,ResName=MOL,ResNum=1) 1    B1
+ H(PDBName=H,ResName=MOL,ResNum=1) 1    B2       2    A1
+ H(PDBName=H,ResName=MOL,ResNum=1) 1    B3       3    A2       2    D1       0
+ H(PDBName=H,ResName=MOL,ResNum=1) 1    B4       4    A3       2    D2       0
+       Variables:
+  B1                    0.5    Scan 20    0.1    
+  B2                    1.09229                  
+  B3                    1.09226                  
+  B4                    1.0923                   
+  A1                  109.46037                  
+  A2                  109.47985                  
+  A3                  109.4853                   
+  D1                 -120.00136                  
+  D2                 -119.98262                  
+ 
+ Center=      0.00001843      0.00006083     -0.11834508
+ Residue   1 PDB Number     1_0 MOL charge    0.00000000 layers R        AvRTP=      0.00000000      0.00000000    179.98601177
+ Scan the potential surface.
+ Variable   Value     No. Steps Step-Size
+ -------- ----------- --------- ---------
+     1       0.500000      20      0.1000
+ A total of     21 points will be computed.
+ ---------------------------------------------------------------------------------------------------
+                            Z-MATRIX (ANGSTROMS AND DEGREES)
+   CD    Cent   Atom    N1       Length/X        N2       Alpha/Y        N3        Beta/Z          J
+ ---------------------------------------------------------------------------------------------------
+      1      1  C 
+      2      2  H        1   0.500000(     1)
+      3      3  H        1   1.092290(     2)      2  109.460(     5)
+      4      4  H        1   1.092260(     3)      3  109.480(     6)      2 -120.001(     8)      0
+      5      5  H        1   1.092297(     4)      4  109.485(     7)      2 -119.983(     9)      0
+ ---------------------------------------------------------------------------------------------------
+                         Z-Matrix orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2          1           0        0.000000    0.000000    0.500000
+      3          1           0        1.029889    0.000000   -0.363901
+      4          1           0       -0.514971   -0.891767   -0.364127
+      5          1           0       -0.514826    0.892071   -0.363697
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  H    0.500000   0.000000
+     3  H    1.092290   1.344246   0.000000
+     4  H    1.092260   1.344306   1.783772   0.000000
+     5  H    1.092297   1.344176   1.783798   1.783838   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH4
+ Framework group  C1[X(CH4)]
+ Deg. of freedom     9
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):         226.2696125         226.2556582         157.5935348
+ Standard basis: 6-31++G(d,p) (6D, 7F)
+    43 basis functions,    64 primitive gaussians,    43 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy        17.1415314567 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    5 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    43 RedAO= T EigKep=  1.29D-03  NBF=    43
+ NBsUse=    43 1.00D-06 EigRej= -1.00D+00 NBFU=    43
+ ExpMin= 3.60D-02 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=1311530.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RB3LYP) =  -39.5921120119     A.U. after    8 cycles
+            NFock=  8  Conv=0.51D-08     -V/T= 1.9420
+
+ **********************************************************************
+
+            Population analysis using the SCF density.
+
+ **********************************************************************
+
+ Alpha  occ. eigenvalues --  -10.19903  -0.76987  -0.46895  -0.39513  -0.39512
+ Alpha virt. eigenvalues --   -0.00128   0.03967   0.03967   0.04187   0.10807
+ Alpha virt. eigenvalues --    0.10808   0.11402   0.13974   0.21196   0.21197
+ Alpha virt. eigenvalues --    0.27592   0.43962   0.57651   0.69695   0.69695
+ Alpha virt. eigenvalues --    0.91017   0.91018   1.04702   1.16502   1.39594
+ Alpha virt. eigenvalues --    1.39597   1.70095   2.04685   2.08306   2.08310
+ Alpha virt. eigenvalues --    2.24593   2.24601   2.61087   2.78024   2.78030
+ Alpha virt. eigenvalues --    2.99550   3.29136   3.39733   3.39746   3.81046
+ Alpha virt. eigenvalues --    3.81052   4.36019  10.17380
+          Condensed to atoms (all electrons):
+               1          2          3          4          5
+     1  C    4.995648   0.202421   0.403046   0.403046   0.403052
+     2  H    0.202421   0.817804  -0.013359  -0.013347  -0.013368
+     3  H    0.403046  -0.013359   0.518197  -0.018499  -0.018503
+     4  H    0.403046  -0.013347  -0.018499   0.518168  -0.018496
+     5  H    0.403052  -0.013368  -0.018503  -0.018496   0.518198
+ Mulliken charges:
+               1
+     1  C   -0.407214
+     2  H    0.019849
+     3  H    0.129119
+     4  H    0.129128
+     5  H    0.129118
+ Sum of Mulliken charges =   0.00000
+ Mulliken charges with hydrogens summed into heavy atoms:
+               1
+     1  C    0.000000
+ Electronic spatial extent (au):  <R**2>=             31.2565
+ Charge=              0.0000 electrons
+ Dipole moment (field-independent basis, Debye):
+    X=              0.0000    Y=              0.0000    Z=             -0.0522  Tot=              0.0522
+ Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=             -7.7395   YY=             -7.7392   ZZ=             -8.1698
+   XY=              0.0000   XZ=              0.0000   YZ=              0.0004
+ Traceless Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=              0.1434   YY=              0.1436   ZZ=             -0.2870
+   XY=              0.0000   XZ=              0.0000   YZ=              0.0004
+ Octapole moment (field-independent basis, Debye-Ang**2):
+  XXX=              0.5739  YYY=             -0.0006  ZZZ=              2.5867  XYY=             -0.5741
+  XXY=             -0.0004  XXZ=              0.4967  XZZ=             -0.0001  YZZ=             -0.0006
+  YYZ=              0.4966  XYZ=             -0.0002
+ Hexadecapole moment (field-independent basis, Debye-Ang**3):
+ XXXX=            -15.7503 YYYY=            -15.7502 ZZZZ=            -10.9166 XXXY=              0.0002
+ XXXZ=             -0.3464 YYYX=             -0.0001 YYYZ=             -0.0003 ZZZX=              0.0001
+ ZZZY=             -0.0002 XXYY=             -5.2502 XXZZ=             -4.4297 YYZZ=             -4.4296
+ XXYZ=              0.0000 YYXZ=              0.3464 ZZXY=              0.0002
+ N-N= 1.714153145672D+01 E-N=-1.268382062111D+02  KE= 4.203128499339D+01
+ Variable Step   Value    
+ -------- ---- -----------
+     1       1    1.133836
+ ---------------------------------------------------------------------------------------------------
+                            Z-MATRIX (ANGSTROMS AND DEGREES)
+   CD    Cent   Atom    N1       Length/X        N2       Alpha/Y        N3        Beta/Z          J
+ ---------------------------------------------------------------------------------------------------
+      1      1  C 
+      2      2  H        1   0.600000(     1)
+      3      3  H        1   1.092290(     2)      2  109.460(     5)
+      4      4  H        1   1.092260(     3)      3  109.480(     6)      2 -120.001(     8)      0
+      5      5  H        1   1.092297(     4)      4  109.485(     7)      2 -119.983(     9)      0
+ ---------------------------------------------------------------------------------------------------
+                         Z-Matrix orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2          1           0        0.000000    0.000000    0.600000
+      3          1           0        1.029889    0.000000   -0.363901
+      4          1           0       -0.514971   -0.891767   -0.364127
+      5          1           0       -0.514826    0.892071   -0.363697
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  H    0.600000   0.000000
+     3  H    1.092290   1.410595   0.000000
+     4  H    1.092260   1.410668   1.783772   0.000000
+     5  H    1.092297   1.410514   1.783798   1.783838   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH4
+ Framework group  C1[X(CH4)]
+ Deg. of freedom     9
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):         214.9404726         214.9278798         157.5935343
+ Standard basis: 6-31++G(d,p) (6D, 7F)
+    43 basis functions,    64 primitive gaussians,    43 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy        16.0276275136 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    5 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    43 RedAO= T EigKep=  1.88D-03  NBF=    43
+ NBsUse=    43 1.00D-06 EigRej= -1.00D+00 NBFU=    43
+ Initial guess from the checkpoint file:  "C:\Users\Administrator\Desktop\dataset_dft\ch4.chk"
+ B after Tr=     0.000000    0.000000    0.018897
+         Rot=    1.000000    0.000001    0.000000    0.000000 Ang=   0.00 deg.
+ ExpMin= 3.60D-02 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=1311530.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RB3LYP) =  -40.0503456950     A.U. after    8 cycles
+            NFock=  8  Conv=0.25D-08     -V/T= 1.9659
+ Variable Step   Value    
+ -------- ---- -----------
+     1       2    1.322808
+ ---------------------------------------------------------------------------------------------------
+                            Z-MATRIX (ANGSTROMS AND DEGREES)
+   CD    Cent   Atom    N1       Length/X        N2       Alpha/Y        N3        Beta/Z          J
+ ---------------------------------------------------------------------------------------------------
+      1      1  C 
+      2      2  H        1   0.700000(     1)
+      3      3  H        1   1.092290(     2)      2  109.460(     5)
+      4      4  H        1   1.092260(     3)      3  109.480(     6)      2 -120.001(     8)      0
+      5      5  H        1   1.092297(     4)      4  109.485(     7)      2 -119.983(     9)      0
+ ---------------------------------------------------------------------------------------------------
+                         Z-Matrix orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2          1           0        0.000000    0.000000    0.700000
+      3          1           0        1.029889    0.000000   -0.363901
+      4          1           0       -0.514971   -0.891767   -0.364127
+      5          1           0       -0.514826    0.892071   -0.363697
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  H    0.700000   0.000000
+     3  H    1.092290   1.480729   0.000000
+     4  H    1.092260   1.480814   1.783772   0.000000
+     5  H    1.092297   1.480638   1.783798   1.783838   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH4
+ Framework group  C1[X(CH4)]
+ Deg. of freedom     9
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):         203.1375812         203.1263320         157.5935335
+ Standard basis: 6-31++G(d,p) (6D, 7F)
+    43 basis functions,    64 primitive gaussians,    43 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy        15.2183537501 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    5 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    43 RedAO= T EigKep=  2.50D-03  NBF=    43
+ NBsUse=    43 1.00D-06 EigRej= -1.00D+00 NBFU=    43
+ Initial guess from the checkpoint file:  "C:\Users\Administrator\Desktop\dataset_dft\ch4.chk"
+ B after Tr=     0.000000    0.000000    0.018897
+         Rot=    1.000000    0.000001    0.000000    0.000000 Ang=   0.00 deg.
+ ExpMin= 3.60D-02 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=1311530.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RB3LYP) =  -40.2964880804     A.U. after    8 cycles
+            NFock=  8  Conv=0.19D-08     -V/T= 1.9826
+ Variable Step   Value    
+ -------- ---- -----------
+     1       3    1.511781
+ ---------------------------------------------------------------------------------------------------
+                            Z-MATRIX (ANGSTROMS AND DEGREES)
+   CD    Cent   Atom    N1       Length/X        N2       Alpha/Y        N3        Beta/Z          J
+ ---------------------------------------------------------------------------------------------------
+      1      1  C 
+      2      2  H        1   0.800000(     1)
+      3      3  H        1   1.092290(     2)      2  109.460(     5)
+      4      4  H        1   1.092260(     3)      3  109.480(     6)      2 -120.001(     8)      0
+      5      5  H        1   1.092297(     4)      4  109.485(     7)      2 -119.983(     9)      0
+ ---------------------------------------------------------------------------------------------------
+                         Z-Matrix orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2          1           0        0.000000    0.000000    0.800000
+      3          1           0        1.029889    0.000000   -0.363901
+      4          1           0       -0.514971   -0.891767   -0.364127
+      5          1           0       -0.514826    0.892071   -0.363697
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  H    0.800000   0.000000
+     3  H    1.092290   1.554136   0.000000
+     4  H    1.092260   1.554231   1.783772   0.000000
+     5  H    1.092297   1.554036   1.783798   1.783838   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH4
+ Framework group  C1[X(CH4)]
+ Deg. of freedom     9
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):         191.1874197         191.1774531         157.5935321
+ Standard basis: 6-31++G(d,p) (6D, 7F)
+    43 basis functions,    64 primitive gaussians,    43 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy        14.6007374865 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    5 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    43 RedAO= T EigKep=  3.11D-03  NBF=    43
+ NBsUse=    43 1.00D-06 EigRej= -1.00D+00 NBFU=    43
+ Initial guess from the checkpoint file:  "C:\Users\Administrator\Desktop\dataset_dft\ch4.chk"
+ B after Tr=     0.000000    0.000000    0.018897
+         Rot=    1.000000    0.000001    0.000000    0.000000 Ang=   0.00 deg.
+ ExpMin= 3.60D-02 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=1311530.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RB3LYP) =  -40.4268054497     A.U. after    8 cycles
+            NFock=  8  Conv=0.16D-08     -V/T= 1.9942
+ Variable Step   Value    
+ -------- ---- -----------
+     1       4    1.700754
+ ---------------------------------------------------------------------------------------------------
+                            Z-MATRIX (ANGSTROMS AND DEGREES)
+   CD    Cent   Atom    N1       Length/X        N2       Alpha/Y        N3        Beta/Z          J
+ ---------------------------------------------------------------------------------------------------
+      1      1  C 
+      2      2  H        1   0.900000(     1)
+      3      3  H        1   1.092290(     2)      2  109.460(     5)
+      4      4  H        1   1.092260(     3)      3  109.480(     6)      2 -120.001(     8)      0
+      5      5  H        1   1.092297(     4)      4  109.485(     7)      2 -119.983(     9)      0
+ ---------------------------------------------------------------------------------------------------
+                         Z-Matrix orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2          1           0        0.000000    0.000000    0.900000
+      3          1           0        1.029889    0.000000   -0.363901
+      4          1           0       -0.514971   -0.891767   -0.364127
+      5          1           0       -0.514826    0.892071   -0.363697
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  H    0.900000   0.000000
+     3  H    1.092290   1.630374   0.000000
+     4  H    1.092260   1.630478   1.783772   0.000000
+     5  H    1.092297   1.630266   1.783798   1.783838   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH4
+ Framework group  C1[X(CH4)]
+ Deg. of freedom     9
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):         179.3547011         179.3459263         157.5935291
+ Standard basis: 6-31++G(d,p) (6D, 7F)
+    43 basis functions,    64 primitive gaussians,    43 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy        14.1119902862 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    5 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    43 RedAO= T EigKep=  3.63D-03  NBF=    43
+ NBsUse=    43 1.00D-06 EigRej= -1.00D+00 NBFU=    43
+ Initial guess from the checkpoint file:  "C:\Users\Administrator\Desktop\dataset_dft\ch4.chk"
+ B after Tr=     0.000000    0.000000    0.018897
+         Rot=    1.000000    0.000001    0.000000    0.000000 Ang=   0.00 deg.
+ ExpMin= 3.60D-02 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=1311530.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RB3LYP) =  -40.4919588937     A.U. after    8 cycles
+            NFock=  8  Conv=0.14D-08     -V/T= 2.0022
+ Variable Step   Value    
+ -------- ---- -----------
+     1       5    1.889726
+ ---------------------------------------------------------------------------------------------------
+                            Z-MATRIX (ANGSTROMS AND DEGREES)
+   CD    Cent   Atom    N1       Length/X        N2       Alpha/Y        N3        Beta/Z          J
+ ---------------------------------------------------------------------------------------------------
+      1      1  C 
+      2      2  H        1   1.000000(     1)
+      3      3  H        1   1.092290(     2)      2  109.460(     5)
+      4      4  H        1   1.092260(     3)      3  109.480(     6)      2 -120.001(     8)      0
+      5      5  H        1   1.092297(     4)      4  109.485(     7)      2 -119.983(     9)      0
+ ---------------------------------------------------------------------------------------------------
+                         Z-Matrix orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2          1           0        0.000000    0.000000    1.000000
+      3          1           0        1.029889    0.000000   -0.363901
+      4          1           0       -0.514971   -0.891767   -0.364127
+      5          1           0       -0.514826    0.892071   -0.363697
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  H    1.000000   0.000000
+     3  H    1.092290   1.709064   0.000000
+     4  H    1.092260   1.709177   1.783772   0.000000
+     5  H    1.092297   1.708949   1.783798   1.783838   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH4
+ Framework group  C1[X(CH4)]
+ Deg. of freedom     9
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):         167.8417168         167.8340219         157.5935197
+ Standard basis: 6-31++G(d,p) (6D, 7F)
+    43 basis functions,    64 primitive gaussians,    43 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy        13.7143723206 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    5 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    43 RedAO= T EigKep=  4.00D-03  NBF=    43
+ NBsUse=    43 1.00D-06 EigRej= -1.00D+00 NBFU=    43
+ Initial guess from the checkpoint file:  "C:\Users\Administrator\Desktop\dataset_dft\ch4.chk"
+ B after Tr=     0.000000    0.000000    0.018897
+         Rot=    1.000000    0.000001    0.000000    0.000000 Ang=   0.00 deg.
+ ExpMin= 3.60D-02 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=1311530.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RB3LYP) =  -40.5197625228     A.U. after    7 cycles
+            NFock=  7  Conv=0.98D-08     -V/T= 2.0078
+ Variable Step   Value    
+ -------- ---- -----------
+     1       6    2.078699
+ ---------------------------------------------------------------------------------------------------
+                            Z-MATRIX (ANGSTROMS AND DEGREES)
+   CD    Cent   Atom    N1       Length/X        N2       Alpha/Y        N3        Beta/Z          J
+ ---------------------------------------------------------------------------------------------------
+      1      1  C 
+      2      2  H        1   1.100000(     1)
+      3      3  H        1   1.092290(     2)      2  109.460(     5)
+      4      4  H        1   1.092260(     3)      3  109.480(     6)      2 -120.001(     8)      0
+      5      5  H        1   1.092297(     4)      4  109.485(     7)      2 -119.983(     9)      0
+ ---------------------------------------------------------------------------------------------------
+                         Z-Matrix orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2          1           0        0.000000    0.000000    1.100000
+      3          1           0        1.029889    0.000000   -0.363901
+      4          1           0       -0.514971   -0.891767   -0.364127
+      5          1           0       -0.514826    0.892071   -0.363697
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  H    1.100000   0.000000
+     3  H    1.092290   1.789883   0.000000
+     4  H    1.092260   1.790003   1.783772   0.000000
+     5  H    1.092297   1.789762   1.783798   1.783838   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH4
+ Framework group  C1[X(CH4)]
+ Deg. of freedom     9
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):         157.5937661         156.7931022         156.7866240
+ Standard basis: 6-31++G(d,p) (6D, 7F)
+    43 basis functions,    64 primitive gaussians,    43 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy        13.3837877464 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    5 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    43 RedAO= T EigKep=  4.26D-03  NBF=    43
+ NBsUse=    43 1.00D-06 EigRej= -1.00D+00 NBFU=    43
+ Initial guess from the checkpoint file:  "C:\Users\Administrator\Desktop\dataset_dft\ch4.chk"
+ B after Tr=     0.000000    0.000000    0.018897
+         Rot=    1.000000    0.000000    0.000000    0.000000 Ang=   0.00 deg.
+ ExpMin= 3.60D-02 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=1311530.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RB3LYP) =  -40.5261185738     A.U. after    7 cycles
+            NFock=  7  Conv=0.85D-08     -V/T= 2.0117
+ Variable Step   Value    
+ -------- ---- -----------
+     1       7    2.267671
+ ---------------------------------------------------------------------------------------------------
+                            Z-MATRIX (ANGSTROMS AND DEGREES)
+   CD    Cent   Atom    N1       Length/X        N2       Alpha/Y        N3        Beta/Z          J
+ ---------------------------------------------------------------------------------------------------
+      1      1  C 
+      2      2  H        1   1.200000(     1)
+      3      3  H        1   1.092290(     2)      2  109.460(     5)
+      4      4  H        1   1.092260(     3)      3  109.480(     6)      2 -120.001(     8)      0
+      5      5  H        1   1.092297(     4)      4  109.485(     7)      2 -119.983(     9)      0
+ ---------------------------------------------------------------------------------------------------
+                         Z-Matrix orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2          1           0        0.000000    0.000000    1.200000
+      3          1           0        1.029889    0.000000   -0.363901
+      4          1           0       -0.514971   -0.891767   -0.364127
+      5          1           0       -0.514826    0.892071   -0.363697
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  H    1.200000   0.000000
+     3  H    1.092290   1.872554   0.000000
+     4  H    1.092260   1.872681   1.783772   0.000000
+     5  H    1.092297   1.872428   1.783798   1.783838   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH4
+ Framework group  C1[X(CH4)]
+ Deg. of freedom     9
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):         157.5935538         146.3051968         146.2993785
+ Standard basis: 6-31++G(d,p) (6D, 7F)
+    43 basis functions,    64 primitive gaussians,    43 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy        13.1040944339 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    5 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    43 RedAO= T EigKep=  4.45D-03  NBF=    43
+ NBsUse=    43 1.00D-06 EigRej= -1.00D+00 NBFU=    43
+ Initial guess from the checkpoint file:  "C:\Users\Administrator\Desktop\dataset_dft\ch4.chk"
+ B after Tr=     0.000000    0.000000    0.018897
+         Rot=    1.000000    0.000000    0.000000    0.000000 Ang=   0.00 deg.
+ ExpMin= 3.60D-02 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=1311530.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RB3LYP) =  -40.5203377664     A.U. after    8 cycles
+            NFock=  8  Conv=0.10D-08     -V/T= 2.0144
+ Variable Step   Value    
+ -------- ---- -----------
+     1       8    2.456644
+ ---------------------------------------------------------------------------------------------------
+                            Z-MATRIX (ANGSTROMS AND DEGREES)
+   CD    Cent   Atom    N1       Length/X        N2       Alpha/Y        N3        Beta/Z          J
+ ---------------------------------------------------------------------------------------------------
+      1      1  C 
+      2      2  H        1   1.300000(     1)
+      3      3  H        1   1.092290(     2)      2  109.460(     5)
+      4      4  H        1   1.092260(     3)      3  109.480(     6)      2 -120.001(     8)      0
+      5      5  H        1   1.092297(     4)      4  109.485(     7)      2 -119.983(     9)      0
+ ---------------------------------------------------------------------------------------------------
+                         Z-Matrix orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2          1           0        0.000000    0.000000    1.300000
+      3          1           0        1.029889    0.000000   -0.363901
+      4          1           0       -0.514971   -0.891767   -0.364127
+      5          1           0       -0.514826    0.892071   -0.363697
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  H    1.300000   0.000000
+     3  H    1.092290   1.956844   0.000000
+     4  H    1.092260   1.956978   1.783772   0.000000
+     5  H    1.092297   1.956713   1.783798   1.783838   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH4
+ Framework group  C1[X(CH4)]
+ Deg. of freedom     9
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):         157.5935462         136.4329531         136.4278880
+ Standard basis: 6-31++G(d,p) (6D, 7F)
+    43 basis functions,    64 primitive gaussians,    43 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy        12.8640465068 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    5 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    43 RedAO= T EigKep=  4.59D-03  NBF=    43
+ NBsUse=    43 1.00D-06 EigRej= -1.00D+00 NBFU=    43
+ Initial guess from the checkpoint file:  "C:\Users\Administrator\Desktop\dataset_dft\ch4.chk"
+ B after Tr=     0.000000    0.000000    0.018897
+         Rot=    1.000000    0.000000    0.000000    0.000000 Ang=   0.00 deg.
+ ExpMin= 3.60D-02 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=1311530.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RB3LYP) =  -40.5079059217     A.U. after    8 cycles
+            NFock=  8  Conv=0.12D-08     -V/T= 2.0162
+ Variable Step   Value    
+ -------- ---- -----------
+     1       9    2.645617
+ ---------------------------------------------------------------------------------------------------
+                            Z-MATRIX (ANGSTROMS AND DEGREES)
+   CD    Cent   Atom    N1       Length/X        N2       Alpha/Y        N3        Beta/Z          J
+ ---------------------------------------------------------------------------------------------------
+      1      1  C 
+      2      2  H        1   1.400000(     1)
+      3      3  H        1   1.092290(     2)      2  109.460(     5)
+      4      4  H        1   1.092260(     3)      3  109.480(     6)      2 -120.001(     8)      0
+      5      5  H        1   1.092297(     4)      4  109.485(     7)      2 -119.983(     9)      0
+ ---------------------------------------------------------------------------------------------------
+                         Z-Matrix orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2          1           0        0.000000    0.000000    1.400000
+      3          1           0        1.029889    0.000000   -0.363901
+      4          1           0       -0.514971   -0.891767   -0.364127
+      5          1           0       -0.514826    0.892071   -0.363697
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  H    1.400000   0.000000
+     3  H    1.092290   2.042552   0.000000
+     4  H    1.092260   2.042691   1.783772   0.000000
+     5  H    1.092297   2.042416   1.783798   1.783838   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH4
+ Framework group  C1[X(CH4)]
+ Deg. of freedom     9
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):         157.5935436         127.2011421         127.1967376
+ Standard basis: 6-31++G(d,p) (6D, 7F)
+    43 basis functions,    64 primitive gaussians,    43 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy        12.6555504428 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    5 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    43 RedAO= T EigKep=  4.70D-03  NBF=    43
+ NBsUse=    43 1.00D-06 EigRej= -1.00D+00 NBFU=    43
+ Initial guess from the checkpoint file:  "C:\Users\Administrator\Desktop\dataset_dft\ch4.chk"
+ B after Tr=     0.000000    0.000000    0.018897
+         Rot=    1.000000    0.000000    0.000000    0.000000 Ang=   0.00 deg.
+ ExpMin= 3.60D-02 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=1311530.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RB3LYP) =  -40.4920650737     A.U. after    8 cycles
+            NFock=  8  Conv=0.13D-08     -V/T= 2.0174
+ Variable Step   Value    
+ -------- ---- -----------
+     1      10    2.834589
+ ---------------------------------------------------------------------------------------------------
+                            Z-MATRIX (ANGSTROMS AND DEGREES)
+   CD    Cent   Atom    N1       Length/X        N2       Alpha/Y        N3        Beta/Z          J
+ ---------------------------------------------------------------------------------------------------
+      1      1  C 
+      2      2  H        1   1.500000(     1)
+      3      3  H        1   1.092290(     2)      2  109.460(     5)
+      4      4  H        1   1.092260(     3)      3  109.480(     6)      2 -120.001(     8)      0
+      5      5  H        1   1.092297(     4)      4  109.485(     7)      2 -119.983(     9)      0
+ ---------------------------------------------------------------------------------------------------
+                         Z-Matrix orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2          1           0        0.000000    0.000000    1.500000
+      3          1           0        1.029889    0.000000   -0.363901
+      4          1           0       -0.514971   -0.891767   -0.364127
+      5          1           0       -0.514826    0.892071   -0.363697
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  H    1.500000   0.000000
+     3  H    1.092290   2.129507   0.000000
+     4  H    1.092260   2.129651   1.783772   0.000000
+     5  H    1.092297   2.129367   1.783798   1.783838   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH4
+ Framework group  C1[X(CH4)]
+ Deg. of freedom     9
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):         157.5935423         118.6113218         118.6074914
+ Standard basis: 6-31++G(d,p) (6D, 7F)
+    43 basis functions,    64 primitive gaussians,    43 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy        12.4726200671 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    5 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    43 RedAO= T EigKep=  4.80D-03  NBF=    43
+ NBsUse=    43 1.00D-06 EigRej= -1.00D+00 NBFU=    43
+ Initial guess from the checkpoint file:  "C:\Users\Administrator\Desktop\dataset_dft\ch4.chk"
+ B after Tr=     0.000000    0.000000    0.018897
+         Rot=    1.000000    0.000000    0.000000    0.000000 Ang=   0.00 deg.
+ ExpMin= 3.60D-02 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=1311530.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RB3LYP) =  -40.4747451074     A.U. after    8 cycles
+            NFock=  8  Conv=0.14D-08     -V/T= 2.0181
+ Variable Step   Value    
+ -------- ---- -----------
+     1      11    3.023562
+ ---------------------------------------------------------------------------------------------------
+                            Z-MATRIX (ANGSTROMS AND DEGREES)
+   CD    Cent   Atom    N1       Length/X        N2       Alpha/Y        N3        Beta/Z          J
+ ---------------------------------------------------------------------------------------------------
+      1      1  C 
+      2      2  H        1   1.600000(     1)
+      3      3  H        1   1.092290(     2)      2  109.460(     5)
+      4      4  H        1   1.092260(     3)      3  109.480(     6)      2 -120.001(     8)      0
+      5      5  H        1   1.092297(     4)      4  109.485(     7)      2 -119.983(     9)      0
+ ---------------------------------------------------------------------------------------------------
+                         Z-Matrix orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2          1           0        0.000000    0.000000    1.600000
+      3          1           0        1.029889    0.000000   -0.363901
+      4          1           0       -0.514971   -0.891767   -0.364127
+      5          1           0       -0.514826    0.892071   -0.363697
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  H    1.600000   0.000000
+     3  H    1.092290   2.217562   0.000000
+     4  H    1.092260   2.217710   1.783772   0.000000
+     5  H    1.092297   2.217418   1.783798   1.783838   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH4
+ Framework group  C1[X(CH4)]
+ Deg. of freedom     9
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):         157.5935415         110.6487382         110.6454043
+ Standard basis: 6-31++G(d,p) (6D, 7F)
+    43 basis functions,    64 primitive gaussians,    43 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy        12.3107237418 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    5 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    43 RedAO= T EigKep=  4.89D-03  NBF=    43
+ NBsUse=    43 1.00D-06 EigRej= -1.00D+00 NBFU=    43
+ Initial guess from the checkpoint file:  "C:\Users\Administrator\Desktop\dataset_dft\ch4.chk"
+ B after Tr=     0.000000    0.000000    0.018897
+         Rot=    1.000000    0.000000    0.000000    0.000000 Ang=   0.00 deg.
+ ExpMin= 3.60D-02 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=1311530.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RB3LYP) =  -40.4571034374     A.U. after    8 cycles
+            NFock=  8  Conv=0.16D-08     -V/T= 2.0185
+ Variable Step   Value    
+ -------- ---- -----------
+     1      12    3.212534
+ ---------------------------------------------------------------------------------------------------
+                            Z-MATRIX (ANGSTROMS AND DEGREES)
+   CD    Cent   Atom    N1       Length/X        N2       Alpha/Y        N3        Beta/Z          J
+ ---------------------------------------------------------------------------------------------------
+      1      1  C 
+      2      2  H        1   1.700000(     1)
+      3      3  H        1   1.092290(     2)      2  109.460(     5)
+      4      4  H        1   1.092260(     3)      3  109.480(     6)      2 -120.001(     8)      0
+      5      5  H        1   1.092297(     4)      4  109.485(     7)      2 -119.983(     9)      0
+ ---------------------------------------------------------------------------------------------------
+                         Z-Matrix orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2          1           0        0.000000    0.000000    1.700000
+      3          1           0        1.029889    0.000000   -0.363901
+      4          1           0       -0.514971   -0.891767   -0.364127
+      5          1           0       -0.514826    0.892071   -0.363697
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  H    1.700000   0.000000
+     3  H    1.092290   2.306591   0.000000
+     4  H    1.092260   2.306743   1.783772   0.000000
+     5  H    1.092297   2.306444   1.783798   1.783838   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH4
+ Framework group  C1[X(CH4)]
+ Deg. of freedom     9
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):         157.5935410         103.2876922         103.2847869
+ Standard basis: 6-31++G(d,p) (6D, 7F)
+    43 basis functions,    64 primitive gaussians,    43 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy        12.1663617719 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    5 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    43 RedAO= T EigKep=  4.97D-03  NBF=    43
+ NBsUse=    43 1.00D-06 EigRej= -1.00D+00 NBFU=    43
+ Initial guess from the checkpoint file:  "C:\Users\Administrator\Desktop\dataset_dft\ch4.chk"
+ B after Tr=     0.000000    0.000000    0.018897
+         Rot=    1.000000    0.000000    0.000000    0.000000 Ang=   0.00 deg.
+ ExpMin= 3.60D-02 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=1311530.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RB3LYP) =  -40.4398316796     A.U. after    8 cycles
+            NFock=  8  Conv=0.17D-08     -V/T= 2.0187
+ Variable Step   Value    
+ -------- ---- -----------
+     1      13    3.401507
+ ---------------------------------------------------------------------------------------------------
+                            Z-MATRIX (ANGSTROMS AND DEGREES)
+   CD    Cent   Atom    N1       Length/X        N2       Alpha/Y        N3        Beta/Z          J
+ ---------------------------------------------------------------------------------------------------
+      1      1  C 
+      2      2  H        1   1.800000(     1)
+      3      3  H        1   1.092290(     2)      2  109.460(     5)
+      4      4  H        1   1.092260(     3)      3  109.480(     6)      2 -120.001(     8)      0
+      5      5  H        1   1.092297(     4)      4  109.485(     7)      2 -119.983(     9)      0
+ ---------------------------------------------------------------------------------------------------
+                         Z-Matrix orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2          1           0        0.000000    0.000000    1.800000
+      3          1           0        1.029889    0.000000   -0.363901
+      4          1           0       -0.514971   -0.891767   -0.364127
+      5          1           0       -0.514826    0.892071   -0.363697
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  H    1.800000   0.000000
+     3  H    1.092290   2.396485   0.000000
+     4  H    1.092260   2.396641   1.783772   0.000000
+     5  H    1.092297   2.396335   1.783798   1.783838   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH4
+ Framework group  C1[X(CH4)]
+ Deg. of freedom     9
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):         157.5935406          96.4956712          96.4931353
+ Standard basis: 6-31++G(d,p) (6D, 7F)
+    43 basis functions,    64 primitive gaussians,    43 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy        12.0367842680 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    5 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    43 RedAO= T EigKep=  5.05D-03  NBF=    43
+ NBsUse=    43 1.00D-06 EigRej= -1.00D+00 NBFU=    43
+ Initial guess from the checkpoint file:  "C:\Users\Administrator\Desktop\dataset_dft\ch4.chk"
+ B after Tr=     0.000000    0.000000    0.018897
+         Rot=    1.000000    0.000000    0.000000    0.000000 Ang=   0.00 deg.
+ ExpMin= 3.60D-02 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=1311530.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RB3LYP) =  -40.4233301412     A.U. after    8 cycles
+            NFock=  8  Conv=0.18D-08     -V/T= 2.0188
+ Variable Step   Value    
+ -------- ---- -----------
+     1      14    3.590480
+ ---------------------------------------------------------------------------------------------------
+                            Z-MATRIX (ANGSTROMS AND DEGREES)
+   CD    Cent   Atom    N1       Length/X        N2       Alpha/Y        N3        Beta/Z          J
+ ---------------------------------------------------------------------------------------------------
+      1      1  C 
+      2      2  H        1   1.900000(     1)
+      3      3  H        1   1.092290(     2)      2  109.460(     5)
+      4      4  H        1   1.092260(     3)      3  109.480(     6)      2 -120.001(     8)      0
+      5      5  H        1   1.092297(     4)      4  109.485(     7)      2 -119.983(     9)      0
+ ---------------------------------------------------------------------------------------------------
+                         Z-Matrix orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2          1           0        0.000000    0.000000    1.900000
+      3          1           0        1.029889    0.000000   -0.363901
+      4          1           0       -0.514971   -0.891767   -0.364127
+      5          1           0       -0.514826    0.892071   -0.363697
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  H    1.900000   0.000000
+     3  H    1.092290   2.487151   0.000000
+     4  H    1.092260   2.487310   1.783772   0.000000
+     5  H    1.092297   2.486999   1.783798   1.783838   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH4
+ Framework group  C1[X(CH4)]
+ Deg. of freedom     9
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):         157.5935403          90.2364252          90.2342076
+ Standard basis: 6-31++G(d,p) (6D, 7F)
+    43 basis functions,    64 primitive gaussians,    43 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy        11.9197976324 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    5 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    43 RedAO= T EigKep=  5.13D-03  NBF=    43
+ NBsUse=    43 1.00D-06 EigRej= -1.00D+00 NBFU=    43
+ Initial guess from the checkpoint file:  "C:\Users\Administrator\Desktop\dataset_dft\ch4.chk"
+ B after Tr=     0.000000    0.000000    0.018897
+         Rot=    1.000000    0.000000    0.000000    0.000000 Ang=   0.00 deg.
+ ExpMin= 3.60D-02 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=1311530.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RB3LYP) =  -40.4078122780     A.U. after    8 cycles
+            NFock=  8  Conv=0.20D-08     -V/T= 2.0187
+ Variable Step   Value    
+ -------- ---- -----------
+     1      15    3.779452
+ ---------------------------------------------------------------------------------------------------
+                            Z-MATRIX (ANGSTROMS AND DEGREES)
+   CD    Cent   Atom    N1       Length/X        N2       Alpha/Y        N3        Beta/Z          J
+ ---------------------------------------------------------------------------------------------------
+      1      1  C 
+      2      2  H        1   2.000000(     1)
+      3      3  H        1   1.092290(     2)      2  109.460(     5)
+      4      4  H        1   1.092260(     3)      3  109.480(     6)      2 -120.001(     8)      0
+      5      5  H        1   1.092297(     4)      4  109.485(     7)      2 -119.983(     9)      0
+ ---------------------------------------------------------------------------------------------------
+                         Z-Matrix orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2          1           0        0.000000    0.000000    2.000000
+      3          1           0        1.029889    0.000000   -0.363901
+      4          1           0       -0.514971   -0.891767   -0.364127
+      5          1           0       -0.514826    0.892071   -0.363697
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  H    2.000000   0.000000
+     3  H    1.092290   2.578508   0.000000
+     4  H    1.092260   2.578670   1.783772   0.000000
+     5  H    1.092297   2.578352   1.783798   1.783838   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH4
+ Framework group  C1[X(CH4)]
+ Deg. of freedom     9
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):         157.5935401          84.4721875          84.4702440
+ Standard basis: 6-31++G(d,p) (6D, 7F)
+    43 basis functions,    64 primitive gaussians,    43 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy        11.8136286366 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    5 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    43 RedAO= T EigKep=  5.21D-03  NBF=    43
+ NBsUse=    43 1.00D-06 EigRej= -1.00D+00 NBFU=    43
+ Initial guess from the checkpoint file:  "C:\Users\Administrator\Desktop\dataset_dft\ch4.chk"
+ B after Tr=     0.000000    0.000000    0.018897
+         Rot=    1.000000    0.000000    0.000000    0.000000 Ang=   0.00 deg.
+ ExpMin= 3.60D-02 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=1311530.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RB3LYP) =  -40.3933732335     A.U. after    8 cycles
+            NFock=  8  Conv=0.21D-08     -V/T= 2.0185
+ Variable Step   Value    
+ -------- ---- -----------
+     1      16    3.968425
+ ---------------------------------------------------------------------------------------------------
+                            Z-MATRIX (ANGSTROMS AND DEGREES)
+   CD    Cent   Atom    N1       Length/X        N2       Alpha/Y        N3        Beta/Z          J
+ ---------------------------------------------------------------------------------------------------
+      1      1  C 
+      2      2  H        1   2.100000(     1)
+      3      3  H        1   1.092290(     2)      2  109.460(     5)
+      4      4  H        1   1.092260(     3)      3  109.480(     6)      2 -120.001(     8)      0
+      5      5  H        1   1.092297(     4)      4  109.485(     7)      2 -119.983(     9)      0
+ ---------------------------------------------------------------------------------------------------
+                         Z-Matrix orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2          1           0        0.000000    0.000000    2.100000
+      3          1           0        1.029889    0.000000   -0.363901
+      4          1           0       -0.514971   -0.891767   -0.364127
+      5          1           0       -0.514826    0.892071   -0.363697
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  H    2.100000   0.000000
+     3  H    1.092290   2.670484   0.000000
+     4  H    1.092260   2.670649   1.783772   0.000000
+     5  H    1.092297   2.670326   1.783798   1.783838   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH4
+ Framework group  C1[X(CH4)]
+ Deg. of freedom     9
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):         157.5935400          79.1652232          79.1635162
+ Standard basis: 6-31++G(d,p) (6D, 7F)
+    43 basis functions,    64 primitive gaussians,    43 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy        11.7168269154 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    5 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    43 RedAO= T EigKep=  5.29D-03  NBF=    43
+ NBsUse=    43 1.00D-06 EigRej= -1.00D+00 NBFU=    43
+ Initial guess from the checkpoint file:  "C:\Users\Administrator\Desktop\dataset_dft\ch4.chk"
+ B after Tr=     0.000000    0.000000    0.018897
+         Rot=    1.000000    0.000000    0.000000    0.000000 Ang=   0.00 deg.
+ ExpMin= 3.60D-02 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=1311530.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RB3LYP) =  -40.3800365114     A.U. after    8 cycles
+            NFock=  8  Conv=0.21D-08     -V/T= 2.0183
+ Variable Step   Value    
+ -------- ---- -----------
+     1      17    4.157397
+ ---------------------------------------------------------------------------------------------------
+                            Z-MATRIX (ANGSTROMS AND DEGREES)
+   CD    Cent   Atom    N1       Length/X        N2       Alpha/Y        N3        Beta/Z          J
+ ---------------------------------------------------------------------------------------------------
+      1      1  C 
+      2      2  H        1   2.200000(     1)
+      3      3  H        1   1.092290(     2)      2  109.460(     5)
+      4      4  H        1   1.092260(     3)      3  109.480(     6)      2 -120.001(     8)      0
+      5      5  H        1   1.092297(     4)      4  109.485(     7)      2 -119.983(     9)      0
+ ---------------------------------------------------------------------------------------------------
+                         Z-Matrix orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2          1           0        0.000000    0.000000    2.200000
+      3          1           0        1.029889    0.000000   -0.363901
+      4          1           0       -0.514971   -0.891767   -0.364127
+      5          1           0       -0.514826    0.892071   -0.363697
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  H    2.200000   0.000000
+     3  H    1.092290   2.763017   0.000000
+     4  H    1.092260   2.763185   1.783772   0.000000
+     5  H    1.092297   2.762857   1.783798   1.783838   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH4
+ Framework group  C1[X(CH4)]
+ Deg. of freedom     9
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):         157.5935398          74.2788684          74.2773657
+ Standard basis: 6-31++G(d,p) (6D, 7F)
+    43 basis functions,    64 primitive gaussians,    43 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy        11.6281936941 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    5 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    43 RedAO= T EigKep=  5.36D-03  NBF=    43
+ NBsUse=    43 1.00D-06 EigRej= -1.00D+00 NBFU=    43
+ Initial guess from the checkpoint file:  "C:\Users\Administrator\Desktop\dataset_dft\ch4.chk"
+ B after Tr=     0.000000    0.000000    0.018897
+         Rot=    1.000000    0.000000    0.000000    0.000000 Ang=   0.00 deg.
+ ExpMin= 3.60D-02 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=1311530.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RB3LYP) =  -40.3677842347     A.U. after    8 cycles
+            NFock=  8  Conv=0.20D-08     -V/T= 2.0180
+ Variable Step   Value    
+ -------- ---- -----------
+     1      18    4.346370
+ ---------------------------------------------------------------------------------------------------
+                            Z-MATRIX (ANGSTROMS AND DEGREES)
+   CD    Cent   Atom    N1       Length/X        N2       Alpha/Y        N3        Beta/Z          J
+ ---------------------------------------------------------------------------------------------------
+      1      1  C 
+      2      2  H        1   2.300000(     1)
+      3      3  H        1   1.092290(     2)      2  109.460(     5)
+      4      4  H        1   1.092260(     3)      3  109.480(     6)      2 -120.001(     8)      0
+      5      5  H        1   1.092297(     4)      4  109.485(     7)      2 -119.983(     9)      0
+ ---------------------------------------------------------------------------------------------------
+                         Z-Matrix orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2          1           0        0.000000    0.000000    2.300000
+      3          1           0        1.029889    0.000000   -0.363901
+      4          1           0       -0.514971   -0.891767   -0.364127
+      5          1           0       -0.514826    0.892071   -0.363697
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  H    2.300000   0.000000
+     3  H    1.092290   2.856054   0.000000
+     4  H    1.092260   2.856224   1.783772   0.000000
+     5  H    1.092297   2.855892   1.783798   1.783838   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH4
+ Framework group  C1[X(CH4)]
+ Deg. of freedom     9
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):         157.5935397          69.7781897          69.7768635
+ Standard basis: 6-31++G(d,p) (6D, 7F)
+    43 basis functions,    64 primitive gaussians,    43 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy        11.5467288033 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    5 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    43 RedAO= T EigKep=  5.44D-03  NBF=    43
+ NBsUse=    43 1.00D-06 EigRej= -1.00D+00 NBFU=    43
+ Initial guess from the checkpoint file:  "C:\Users\Administrator\Desktop\dataset_dft\ch4.chk"
+ B after Tr=     0.000000    0.000000    0.018897
+         Rot=    1.000000    0.000000    0.000000    0.000000 Ang=   0.00 deg.
+ ExpMin= 3.60D-02 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=1311530.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RB3LYP) =  -40.3565752186     A.U. after    8 cycles
+            NFock=  8  Conv=0.19D-08     -V/T= 2.0177
+ Variable Step   Value    
+ -------- ---- -----------
+     1      19    4.535343
+ ---------------------------------------------------------------------------------------------------
+                            Z-MATRIX (ANGSTROMS AND DEGREES)
+   CD    Cent   Atom    N1       Length/X        N2       Alpha/Y        N3        Beta/Z          J
+ ---------------------------------------------------------------------------------------------------
+      1      1  C 
+      2      2  H        1   2.400000(     1)
+      3      3  H        1   1.092290(     2)      2  109.460(     5)
+      4      4  H        1   1.092260(     3)      3  109.480(     6)      2 -120.001(     8)      0
+      5      5  H        1   1.092297(     4)      4  109.485(     7)      2 -119.983(     9)      0
+ ---------------------------------------------------------------------------------------------------
+                         Z-Matrix orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2          1           0        0.000000    0.000000    2.400000
+      3          1           0        1.029889    0.000000   -0.363901
+      4          1           0       -0.514971   -0.891767   -0.364127
+      5          1           0       -0.514826    0.892071   -0.363697
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  H    2.400000   0.000000
+     3  H    1.092290   2.949546   0.000000
+     4  H    1.092260   2.949719   1.783772   0.000000
+     5  H    1.092297   2.949383   1.783798   1.783838   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH4
+ Framework group  C1[X(CH4)]
+ Deg. of freedom     9
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):         157.5935396          65.6303692          65.6291959
+ Standard basis: 6-31++G(d,p) (6D, 7F)
+    43 basis functions,    64 primitive gaussians,    43 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy        11.4715906903 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    5 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    43 RedAO= T EigKep=  5.51D-03  NBF=    43
+ NBsUse=    43 1.00D-06 EigRej= -1.00D+00 NBFU=    43
+ Initial guess from the checkpoint file:  "C:\Users\Administrator\Desktop\dataset_dft\ch4.chk"
+ B after Tr=     0.000000    0.000000    0.018897
+         Rot=    1.000000    0.000000    0.000000    0.000000 Ang=   0.00 deg.
+ ExpMin= 3.60D-02 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=1311530.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RB3LYP) =  -40.3463550341     A.U. after    8 cycles
+            NFock=  8  Conv=0.22D-08     -V/T= 2.0174
+ Variable Step   Value    
+ -------- ---- -----------
+     1      20    4.724315
+ ---------------------------------------------------------------------------------------------------
+                            Z-MATRIX (ANGSTROMS AND DEGREES)
+   CD    Cent   Atom    N1       Length/X        N2       Alpha/Y        N3        Beta/Z          J
+ ---------------------------------------------------------------------------------------------------
+      1      1  C 
+      2      2  H        1   2.500000(     1)
+      3      3  H        1   1.092290(     2)      2  109.460(     5)
+      4      4  H        1   1.092260(     3)      3  109.480(     6)      2 -120.001(     8)      0
+      5      5  H        1   1.092297(     4)      4  109.485(     7)      2 -119.983(     9)      0
+ ---------------------------------------------------------------------------------------------------
+                         Z-Matrix orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2          1           0        0.000000    0.000000    2.500000
+      3          1           0        1.029889    0.000000   -0.363901
+      4          1           0       -0.514971   -0.891767   -0.364127
+      5          1           0       -0.514826    0.892071   -0.363697
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  H    2.500000   0.000000
+     3  H    1.092290   3.043453   0.000000
+     4  H    1.092260   3.043627   1.783772   0.000000
+     5  H    1.092297   3.043288   1.783798   1.783838   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    CH4
+ Framework group  C1[X(CH4)]
+ Deg. of freedom     9
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):         157.5935396          61.8048949          61.8038544
+ Standard basis: 6-31++G(d,p) (6D, 7F)
+    43 basis functions,    64 primitive gaussians,    43 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy        11.4020658200 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    5 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    43 RedAO= T EigKep=  5.59D-03  NBF=    43
+ NBsUse=    43 1.00D-06 EigRej= -1.00D+00 NBFU=    43
+ Initial guess from the checkpoint file:  "C:\Users\Administrator\Desktop\dataset_dft\ch4.chk"
+ B after Tr=     0.000000    0.000000    0.018897
+         Rot=    1.000000    0.000000    0.000000    0.000000 Ang=   0.00 deg.
+ ExpMin= 3.60D-02 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=1311530.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RB3LYP) =  -40.3370618463     A.U. after    8 cycles
+            NFock=  8  Conv=0.18D-08     -V/T= 2.0171
+ Scan completed.
+ 
+ Summary of the potential surface scan:
+   N      B1          SCF    
+ ----  ---------  -----------
+    1     0.5000    -39.59211
+    2     0.6000    -40.05035
+    3     0.7000    -40.29649
+    4     0.8000    -40.42681
+    5     0.9000    -40.49196
+    6     1.0000    -40.51976
+    7     1.1000    -40.52612
+    8     1.2000    -40.52034
+    9     1.3000    -40.50791
+   10     1.4000    -40.49207
+   11     1.5000    -40.47475
+   12     1.6000    -40.45710
+   13     1.7000    -40.43983
+   14     1.8000    -40.42333
+   15     1.9000    -40.40781
+   16     2.0000    -40.39337
+   17     2.1000    -40.38004
+   18     2.2000    -40.36778
+   19     2.3000    -40.35658
+   20     2.4000    -40.34636
+   21     2.5000    -40.33706
+ ----  ---------  -----------
+  
+ 1|1|UNPC-BF-202112021916|Scan|RB3LYP|6-31++G(d,p)|C1H4|ADMINISTRATOR|1
+ 4-Mar-2023|1||# scan b3lyp/6-31++g(d,p) nosymm||Title Card Required||0
+ ,1|C|H,1,B1|H,1,B2,2,A1|H,1,B3,3,A2,2,D1,0|H,1,B4,4,A3,2,D2,0||B1=0.5,
+ s,20,0.1|B2=1.0922895|B3=1.09226001|B4=1.09229671|A1=109.46036981|A2=1
+ 09.47984615|A3=109.48529601|D1=-120.00135584|D2=-119.98261794||Version
+ =EM64W-G16RevA.03|HF=-39.592112,-40.0503457,-40.2964881,-40.4268054,-4
+ 0.4919589,-40.5197625,-40.5261186,-40.5203378,-40.5079059,-40.4920651,
+ -40.4747451,-40.4571034,-40.4398317,-40.4233301,-40.4078123,-40.393373
+ 2,-40.3800365,-40.3677842,-40.3565752,-40.346355,-40.3370618|RMSD=5.08
+ 3e-009,2.461e-009,1.893e-009,1.590e-009,1.434e-009,9.798e-009,8.471e-0
+ 09,1.018e-009,1.207e-009,1.336e-009,1.449e-009,1.568e-009,1.702e-009,1
+ .849e-009,1.984e-009,2.070e-009,2.079e-009,2.011e-009,1.932e-009,2.213
+ e-009,1.837e-009|PG=C01 [X(C1H4)]||@
+
+
+            THE IRISH PIG
+ 'TWAS AN EVENING IN NOVEMBER,
+ AS I VERY WELL REMEMBER
+ I WAS STROLLING DOWN THE STREET IN DRUNKEN PRIDE,
+ BUT MY KNEES WERE ALL A'FLUTTER
+ SO I LANDED IN THE GUTTER,
+ AND A PIG CAME UP AND LAY DOWN BY MY SIDE.
+
+ YES, I LAY THERE IN THE GUTTER
+ THINKING THOUGHTS I COULD NOT UTTER
+ WHEN A COLLEEN PASSING BY DID SOFTLY SAY,
+ 'YE CAN TELL A MAN THAT BOOZES
+ BY THE COMPANY THAT HE CHOOSES.' -
+ AT THAT, THE PIG GOT UP AND WALKED AWAY!
+     -- THE ECONOMIST, AUGUST 23, 1986
+ Job cpu time:       0 days  0 hours  9 minutes 47.0 seconds.
+ Elapsed time:       0 days  0 hours  8 minutes 44.2 seconds.
+ File lengths (MBytes):  RWF=      6 Int=      0 D2E=      0 Chk=      1 Scr=      1
+ Normal termination of Gaussian 16 at Tue Mar 14 21:40:37 2023.

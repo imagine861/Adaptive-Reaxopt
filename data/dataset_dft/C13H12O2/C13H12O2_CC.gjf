@@ -1,0 +1,143 @@
+%nprocshared=16
+%mem=300MW
+%chk=C:\Users\Administrator\Desktop\dataset_dft\C12H8O1\C12H8O1.chk
+# scan b3lyp/6-31++g(d,p) nosymm
+
+Title Card Required
+
+0 1
+ C(PDBName=C,ResName=MOL,ResNum=1)                 
+ C(PDBName=C,ResName=MOL,ResNum=1)                     1            B1
+ C(PDBName=C,ResName=MOL,ResNum=1)                     2            B2    1            A1
+ C(PDBName=C,ResName=MOL,ResNum=1)                     3            B3    2            A2    1            D1    0
+ C(PDBName=C,ResName=MOL,ResNum=1)                     4            B4    3            A3    2            D2    0
+ C(PDBName=C,ResName=MOL,ResNum=1)                     1            B5    2            A4    3            D3    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                     2            B6    1            A5    6            D4    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                     4            B7    3            A6    2            D5    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                     5            B8    4            A7    3            D6    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                     1            B9    6            A8    5            D7    0
+ C(PDBName=C,ResName=MOL,ResNum=1)                     3           B10    2            A9    1            D8    0
+ C(PDBName=C,ResName=MOL,ResNum=1)                    11           B11    3           A10    2            D9    0
+ C(PDBName=C,ResName=MOL,ResNum=1)                    12           B12   11           A11    3           D10    0
+ C(PDBName=C,ResName=MOL,ResNum=1)                    13           B13   12           A12   11           D11    0
+ C(PDBName=C,ResName=MOL,ResNum=1)                    14           B14   13           A13   12           D12    0
+ C(PDBName=C,ResName=MOL,ResNum=1)                    11           B15    3           A14    2           D13    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                    13           B16   12           A15   11           D14    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                    14           B17   13           A16   12           D15    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                    16           B18   11           A17    3           D16    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                    11           B19    3           A18    2           D17    0
+ C(PDBName=C,ResName=MOL,ResNum=1)                     3           B20    2           A19    1           D18    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                    21           B21    3           A20    2           D19    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                    21           B22    3           A21    2           D20    0
+ O(PDBName=O,ResName=MOL,ResNum=1)                     6           B23    1           A22    2           D21    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                    24           B24    6           A23    1           D22    0
+ O(PDBName=O,ResName=MOL,ResNum=1)                    15           B25   14           A24   13           D23    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                    26           B26   15           A25   14           D24    0
+
+   B1             1.39914361
+   B2             1.40635105
+   B3             1.40606607
+   B4             1.39928126
+   B5             1.39685836
+   B6             1.08694280
+   B7             1.08635068
+   B8             1.08744685
+   B9             1.08409270
+   B10            3.12409510
+   B11            1.40606431
+   B12            1.40635038
+   B13            1.39914529
+   B14            1.39685755
+   B15            1.39928140
+   B16            1.08694286
+   B17            1.08409255
+   B18            1.08744690
+   B19            1.08634832
+   B20            1.00000000 20 0.100000
+   B21            1.09923927
+   B22            1.09924308
+   B23            1.40033854
+   B24            0.97615312
+   B25            1.40033957
+   B26            0.97615296
+   A1           121.50472392
+   A2           117.99972089
+   A3           121.18860739
+   A4           119.34816251
+   A5           119.08161834
+   A6           119.59787844
+   A7           120.02454387
+   A8           119.17457200
+   A9           118.86085457
+   A10           54.30085041
+   A11          118.00001416
+   A12          121.50468837
+   A13          119.34803044
+   A14          159.11847248
+   A15          119.41407332
+   A16          121.47678311
+   A17          120.02510866
+   A18           69.10057661
+   A19          120.94121179
+   A20          109.42830944
+   A21          108.34488454
+   A22          116.91155197
+   A23          112.48411487
+   A24          116.91179101
+   A25          112.48408690
+   D1            -0.12240072
+   D2             0.19866295
+   D3            -0.01058278
+   D4           179.90380493
+   D5          -179.32568685
+   D6           179.95947585
+   D7          -179.85173397
+   D8          -118.04155279
+   D9          -136.57791811
+   D10         -155.29604841
+   D11           -0.12434817
+   D12           -0.00870361
+   D13          138.84404974
+   D14          179.96257339
+   D15          179.91318570
+   D16         -109.11682467
+   D17           21.15132833
+   D18          178.63933110
+   D19         -110.10669025
+   D20            4.81351121
+   D21          179.93357773
+   D22          179.84920403
+   D23          179.92296638
+   D24          179.75846994
+
+
+ 2 3 1.5 7 1.0
+ 3 4 1.5 21 1.0
+ 4 5 1.5 8 1.0
+ 5 6 1.5 9 1.0
+ 6 24 1.0
+ 7
+ 8
+ 9
+ 10
+ 11 12 1.5 16 1.5 20 1.0
+ 12 13 1.5 21 1.0
+ 13 14 1.5 17 1.0
+ 14 15 1.5 18 1.0
+ 15 16 1.5 26 1.0
+ 16 19 1.0
+ 17
+ 18
+ 19
+ 20
+ 21 22 1.0 23 1.0
+ 22
+ 23
+ 24 25 1.0
+ 25
+ 26 27 1.0
+ 27
+
+
+
+

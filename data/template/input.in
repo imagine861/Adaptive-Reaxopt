@@ -1,0 +1,18 @@
+# LG30---original density----0.5------100KPS----1000K----500ps--f4
+variable a loop 1 LOOPEND
+units real
+atom_style full
+neighbor 2.0 bin
+neigh_modify every 1 delay 0 check no
+read_data data_$a
+pair_style reax/c NULL
+pair_coeff * * ffield.reax.cho C H O
+timestep 0.25
+velocity all create 300.0 4928459 rot yes dist gaussian
+fix 3 all qeq/reax 1 0.0 10 1e-6 reax/c
+variable mye equal etotal
+run 1
+print ${mye} append infoPLACEHOLDER.data screen no
+clear
+next a
+jump input.in

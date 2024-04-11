@@ -1,0 +1,23 @@
+%chk=C:\Users\Administrator\Desktop\dataset_dft\ch4.chk
+# scan b3lyp/6-31++g(d,p) nosymm
+
+Title Card Required
+
+0 1
+ C(PDBName=C,ResName=MOL,ResNum=1)                 
+ H(PDBName=H,ResName=MOL,ResNum=1)                     1            B1
+ H(PDBName=H,ResName=MOL,ResNum=1)                     1            B2    2            A1
+ H(PDBName=H,ResName=MOL,ResNum=1)                     1            B3    3            A2    2            D1    0
+ H(PDBName=H,ResName=MOL,ResNum=1)                     1            B4    4            A3    2            D2    0
+
+   B1             0.50 20 0.10 
+   B2             1.09228950
+   B3             1.09226001
+   B4             1.09229671
+   A1           109.46036981
+   A2           109.47984615
+   A3           109.48529601
+   D1          -120.00135584
+   D2          -119.98261794
+
+
